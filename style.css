@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 10px 150px 100px 150px;
+    gap: 20px;
+}
+
+.header-left {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.header-right {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links a {
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 0px 0px 0px 20px;
+}
+
+.awesome {
+    font-size: 42px;
+    font-weight: bolder;
+    margin: 50px 0 0 0;
+}
+
+.awesome-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+button {
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 600;
+    border-style: none;
+}
+
+.placeholder {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    margin: 50px 0 0 0;
+}

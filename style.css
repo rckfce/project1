@@ -169,3 +169,10 @@ h2 {
 }
 
 /* footer */
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 25px 0 25px 0;
+    color: #f9faf8;
+}
